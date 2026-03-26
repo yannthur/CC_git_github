@@ -1,6 +1,11 @@
 # Data
-data/
-*.csv
+data/*
+!data/raw/
+!data/processed/
+!data/external/
+!data/raw/*.csv
+!data/processed/*.csv
+!data/external/*.csv
 *.xlsx
 *.parquet
 
