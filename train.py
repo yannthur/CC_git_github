@@ -1,7 +1,10 @@
-import yaml
 import torch
+import yaml
+
 from src.data import load_data
 from src.models import build_model
+
+torch.zeros(1)
 
 
 def train(config_path: str = "config.yaml"):
