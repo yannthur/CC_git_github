@@ -1,0 +1,15 @@
+# Configuration du projet
+project:
+  name: "CC_git_github"
+  version: "0.1.0"
+
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed"
+  external_path: "data/external"
+
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  model_save_path: "models/"
